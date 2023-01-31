@@ -36,6 +36,8 @@
 
   #word-display{
     margin: 10px auto;
+    font-size: 30px;
+    color: rgb(17, 209, 17);
   }
   
   #guess{

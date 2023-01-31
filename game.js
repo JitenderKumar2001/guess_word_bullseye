@@ -243,10 +243,15 @@ let wordList = [
         }
       } else {
         chances--;
-        wrongLetter.push(guess)  
+        if(!wrongLetter.includes(guess)){
+          wrongLetter.push(guess);
+        }  
+        wrong.innerHTML = "Wrong letters: " + wrongLetter;
         wrong.innerHTML = "Wrong letters: " + wrongLetter;
         message.innerHTML = "Remaining guesses: " + chances;
         if (chances === 0) {
+          document.getElementById("word-display").innerHTML = word.word;
+          alert("You Lose!")
           message.innerHTML = "You lose! The word was " + word.word + ".";
           document.getElementById("submit-button").disabled = true;
         }
