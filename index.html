@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+    <div class="sub-main">    
+        <div class="hbe">
+            <div class="hbe-div">
+            <div>
+                <img src="./hbee.png" height="80px" alt="">
+            </div>
+            <h1>hitbullseye</h1>
+        </div>
+        </div>
+        <div id="game">
+            <h1>Word Guessing Game</h1>
+            <br>
+            <hr>
+            <div id="word-display"></div>
+            <input type="text" id="guess">
+            <button id="submit-button">Submit</button>
+            <p id="hint"></p>
+            <p id="chance"></p>
+            <p id="wrong">Wrong letters:</p>
+            <p id="message">Remaining guesses:</p>
+            <button id="reset" onclick="reFunction()">Reset Game</button>
+        </div>
+    </div>    
+
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    background-image: url('https://www.hitbullseye.com/images/school.svg');
+}
+
+.main {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .sub-main{
+    display: block;
+    margin: auto;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+  }
+
+  .hbe{
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin: 20px auto;
+  }
+
+  .hbe-div{
+    display: flex;
+    align-items: center;
+  }
+
+  #word-display{
+    margin: 10px auto;
+  }
+  
+  #guess{
+    width: 50px;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 2px 5px;
+  }
+  
+
+  input[type="text"] {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  p{
+    margin: 5px auto;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  #reset{
+    width: 200px;
+    background-color: rgb(111, 171, 21);
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
